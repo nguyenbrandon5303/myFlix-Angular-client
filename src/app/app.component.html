@@ -3,10 +3,13 @@
     Welcome to myFlix!
   </h1>
   <!-- Adding the click event on the signup button -->
-  <button mat-raised-button (click)="openUserRegistrationDialog()" style="margin-right: 10px;" color="primary">
+  <button mat-raised-button color="primary" (click)="openUserRegistrationDialog()" style="margin-right: 10px;">
     Sign Up
   </button>
-  <button mat-raised-button color="primary">
+  <button mat-raised-button color="primary" (click)="openLoginDialog()" style="margin-right: 10px;">
     Login
+  </button>
+  <button mat-raised-button color="primary" (click)="openMoviesDialog()">
+    All Movies
   </button>
 </div>
